@@ -56,7 +56,7 @@ def InputEm():
     global Emission
     Emission = []
     for i in range(Chapter):
-        Emission.append(float(input('Input Emission' + str(i))))
+        Emission.append(float(input('Input Emission' + str(i) + ' ')))
 
 
 def VTB():
